@@ -1,4 +1,5 @@
 body{
+  text-shadow: 1px 1px 0 rgba(200, 200, 200, 0.6);
   font-family: Georgia, serif;
   margin: 0;
   -webkit-font-smoothing: antialiased;
@@ -44,7 +45,6 @@ hr{
   margin: 0;
   color: #222;
   border-bottom: 2px dashed #eee;
-  text-shadow: 1px 1px 0 rgba(200, 200, 200, 0.6);
 }
 .related li:hover{
   border-bottom-color: #F60;
