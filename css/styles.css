@@ -4,10 +4,12 @@ body{
   -webkit-font-smoothing: antialiased;
 }
 a{
-  color: #227CE8;
+  color: #F60;
+  font-weight: bold;
+  text-decoration: none;
 }
 a:hover{
-  text-decoration: none;
+  text-decoration: underline;
 }
 p code, li code{
   background-color: #F9F9F9;
