@@ -1,0 +1,38 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7 ]> <html class="no-js ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">  
+  <title>{{ page.title }}</title>
+  <meta name="author" content="Andrea De Marco" />
+  <meta name="description" content="Writings, python and django by Andrea De Marco." />
+  <link rel="stylesheet" href="/css/styles.css" type="text/css" media="screen, projection" />
+  <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+</head>
+<body>
+
+<header>
+  <div id="me">
+    <a href="/">
+      <img src="http://www.gravatar.com/avatar/3cb87d95aa1af57fcceb7e3871b14ddf?s=150" height="95" width="95" class="avatar" /> 
+      <span id="name">andrea</span> 
+      <span id="surname"><span id="lower">de</span>marco</span> 
+    </a>
+  </div>
+  <div class="site">
+    <a href="http://www.linkedin.com/pub/andrea-de-marco/21/691/375" id="linkedin"> 
+      <img src="/images/linkedin.png" alt="linkedin" title="@ademarco on LinkedIn" height="32" width="32" /> 
+    </a>
+    <a href="https://github.com/z4r" id="github"> 
+      <img src="/images/github.png" alt="github" title="@ademarco on GitHub" height="32" width="32" /> 
+    </a>
+  </div>
+
+</header>
+{{ content }}
+</body>
+</html>
