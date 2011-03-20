@@ -95,6 +95,9 @@ header .avatar{
 header a{
   text-decoration: none;
 }
+header a:hover{
+  text-decoration: none;
+}
 header #me{
   text-transform: lowercase;
   font-weight: bold;
