@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Geo::IP and DBD::mysql on Snow Leopard
+title: Geo::IP & DBD::mysql on Snow Leopard
 ---
 
 During the installation of these two packages I ran into some difficulties due to my lack of handiness with [CPAN] and Snow Leopard.
