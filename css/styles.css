@@ -196,15 +196,16 @@ header #sections a:hover{
   border-top: 1px solid #eee;
   border-bottom: 1px solid #eee;
   font-size: 14px;
-  padding: 1em 3em;
-  margin: 2em 6em;
   color: #444;
 }
 #post blockquote cite:before{
-  content: '— ';
+  content: 'source: ';
+}
+#post blockquote p{
+  text-align: right;
 }
 #post blockquote cite{
-  text-align: right;
   color: #111;
   font-style: normal;
+  font-size: 11px;
 }
