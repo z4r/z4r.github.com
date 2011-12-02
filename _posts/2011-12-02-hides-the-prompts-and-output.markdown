@@ -73,3 +73,4 @@ def setup(app):
 {% endhighlight %}
 
 [Sphynx]: http://sphinx.pocoo.org/ 
+[PyDoc]: http://docs.python.org/
