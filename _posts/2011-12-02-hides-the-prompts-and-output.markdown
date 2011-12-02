@@ -3,7 +3,7 @@ layout: post
 title: Hide the prompts and output
 ---
 
-I like to write my pydoc with the great [Sphynx]. One of my preferred feature is the doctest highlighting!!!
+I like to write my pydoc with the great [Sphinx]. One of my preferred feature is the doctest highlighting!!!
 In the official [PyDoc] yesterday i noticed a very cool button '>>>' that allow to hide/show prompts and output.
 To install it we need  **copybutton.js** in the static folder:
 
@@ -65,12 +65,12 @@ $(document).ready(function() {
 });
 {% endhighlight %}
 
-And the add in *conf.py* auto-gen by [Sphynx]
+And the add in *conf.py* auto-gen by [Sphinx]
 
 {% highlight python %}
 def setup(app):
     app.add_javascript('copybutton.js')
 {% endhighlight %}
 
-[Sphynx]: http://sphinx.pocoo.org/ 
+[Sphinx]: http://sphinx.pocoo.org/ 
 [PyDoc]: http://docs.python.org/
