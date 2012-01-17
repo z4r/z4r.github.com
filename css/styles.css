@@ -26,6 +26,9 @@ hr{
   background-color: #ccc;
   margin: 2em 1em;
 }
+.gist {
+    font-size: 13px;
+}
 .content{
   margin-left: 130px;
   width: 650px;
