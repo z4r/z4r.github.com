@@ -27,7 +27,8 @@ hr{
   margin: 2em 1em;
 }
 .gist {
-    font-size: 13px;
+  font-size: 13px;
+  text-shadow: none;
 }
 .content{
   margin-left: 130px;
