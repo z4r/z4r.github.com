@@ -1,7 +1,7 @@
---
+---
 layout: post
 title: MusicBrainz DBslave on Ubuntu Server
---
+---
 
 A very simple guide Step by Step to install a clone of [Musicbraiz Database][musicbrainz] on your Ubuntu Server.
 
