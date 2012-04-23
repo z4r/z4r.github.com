@@ -1,7 +1,7 @@
 ---
 layout: post
 category : python
-tags : [cache, urllib2, gits]
+tags : [cache, urllib2, redis, gits]
 ---
 {% include JB/setup %}
 
