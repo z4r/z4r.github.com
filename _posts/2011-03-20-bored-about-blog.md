@@ -1,7 +1,7 @@
 ---
 layout: post
 category : jekyll
-tags : [githum, blog, tutorial]
+tags : [github, blog, tutorial]
 ---
 {% include JB/setup %}
 
